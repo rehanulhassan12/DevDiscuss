@@ -7,8 +7,10 @@ export async function middleware(request: NextRequest) {
     await Promise.all([getOrCreateDb(), getOrCreateStorage()]);
 
     return NextResponse.next();
-  } catch (error: any) {
-    console.log("error in middleware", error);
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      console.log("error in middleware", error);
+    }
     // throw new Error("Error in middleware");
   }
 }
