@@ -1,6 +1,6 @@
-# DevDiscuss
+# 🚀 Dev Discuss
 
-**DevDiscuss** is a platform that allows the developer community to interact by posting questions, answering, commenting, and voting. The reputation system increases user credibility based on votes, encouraging quality contributions.
+**Dev Discuss** is a platform that allows the developer community to interact by posting questions, answering, commenting, and voting. The reputation system increases user credibility based on votes, encouraging quality contributions.
 
 ---
 
@@ -85,5 +85,6 @@ npm run dev
 
 ```
 
-✅ Summary
+📌 Summary
+
 DevDiscuss is a fully functional, reputation-driven Q&A platform where developers can share knowledge by asking questions, posting answers, voting, and interacting through comments. It supports dynamic user profiles, content filtering, and interactive features with modern UI/UX. Powered by Appwrite and a robust Next.js 15 frontend, the project showcases real-world architecture, API usage, and clean component-based design.
